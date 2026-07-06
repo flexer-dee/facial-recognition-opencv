@@ -1,0 +1,14 @@
+# Environments
+.venv/
+__pycache__/
+
+# AI Models (These should be downloaded locally, not stored in Git)
+data/*.onnx
+
+# Output and Personal Data
+Attendance.csv
+ImagesAttendance/
+
+# OS generated files
+.DS_Store
+Thumbs.db

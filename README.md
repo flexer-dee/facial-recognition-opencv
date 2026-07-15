@@ -21,6 +21,8 @@ FacialRecognitionPython/
 │   ├── detector.py            # YuNet face localization encapsulation
 │   └── encoder.py             # SFace alignment and embedding extraction
 └── Attendance.csv             # Automated tabular data logging
+```
+---
 
 ### 1. Face Detection (YuNet)
 * **Model:** `face_detection_yunet_2026may.onnx` (~224 KB)
@@ -53,6 +55,7 @@ Due to file storage limits, model weights must be downloaded locally into the `d
 * [Download YuNet Detector](https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2026may.onnx)
 * [Download SFace Recognizer](https://github.com/opencv/opencv_zoo/raw/main/models/face_recognition_sface/face_recognizer_fast.onnx)
 
+```
 ---
 
 ## Operating Instructions
